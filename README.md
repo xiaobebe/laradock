@@ -19,10 +19,8 @@ LaraDock努力简化创建开发环境过程。
 让我们了解使用它安装`NGINX`, `PHP`, `Composer`, `MySQL` 和 `Redis`，然后运行`Laravel`
 
 1. 将LaraDock放到你的Laravel项目中：
-<br>
 `git clone https://github.com/laradock/laradock.git`.
 2. 进入LaraDock目录，然后运行这些容器。
-<br>
 `docker-compose up -d nginx mysql redis`
 3. 打开你的`.env`文件，然后设置`mysql`的`DB_HOST` 和  `redis`的`REDIS_HOST`。
 4. 打开浏览器，访问localhost：
